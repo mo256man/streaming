@@ -27,7 +27,7 @@ function send_to_python() {
         var diff = js_now.diff(dayjs(camera_time));
         console.log("camera_time:" + camera_time);
         console.log("js_time    :" + js_time);
-        console.log("diff       :" + diff);
+        console.log("diff       :" + diff + "ms");
 
     }).fail(function() {
         console.log("失敗");
